@@ -1,7 +1,5 @@
 import { menuArray } from "./data.js";
-import { v4 as uuidv4 } from 'uuid';
-
-
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
 
 function getMenuFeed() {
@@ -128,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".thanks").innerHTML = `<h2>Thanks, ${field1.value}! Your order is on its way!</h2>`;
         document.querySelector(".thanks").classList.remove("hidden");
         document.querySelector(".card-details-container").classList.add("hidden");
+        document.querySelector(".menu-feed").classList.add("hidden");
     }
 
 });
-
