@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    user-select: none;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.heading {
+    background-image: url("bgimg.png");
+    height: 160px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.heading h1 {
+    font-size: 40px;
+    margin: 0 0 5px 40px;
+}
+
+.heading h2 {
+    font-size: 20px;
+    margin: 0 0 5px 40px;
+}
+
+/* menu starts here */
+.menu-feed {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.food {
+    font-size: 40px;
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.food-info {
+    height: 100px;
+    margin-left: -80px;
+}
+
+.name {
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+
+.ingredients {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    width: 150px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+
+.plus {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: serif;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-color: aliceblue;
+}
+
+/* check-out section starts */
+.checkout {
+    text-align: center;
+    width: 100%;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    width: 100%;
+}
+
+.order-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+
+}
+
+.order-name-remove {
+    color: gray;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.order-price {
+    width: 20px;
+    width: 50px;
+}
+
+.total-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#complete-order {
+    width: 300px;
+    padding: 20px 30px;
+    align-items: center;
+    border-radius: 3px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    color: #fff;
+}
+
+/* card details */
+
+.card-details-container {
+    position: absolute;
+    top: 180px;
+    right: 50px;
+}
+
+.card-details {
+    width: 500px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-details input {
+    width: 300px;
+    height: 40px;
+    margin: 10px auto;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-details button {
+    padding: 10px 80px;
+    background: #16DB99;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 55px;
+}
+
+.hidden {
+    display: none;
+}
+
+.thanks {
+    text-align: center;
+    background-color: #ECFDF5;
+    height: 40px;
+    padding: 10px;
+    color: #065F46;
+    margin-bottom: 40px;
+}

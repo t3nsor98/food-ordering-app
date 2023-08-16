@@ -1,0 +1,62 @@
+<!-- new HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container">
+        <header class="heading">
+            <h1>Diggy’s Diner</h1>
+            <h2>The best burgers and pizzas in town.</h2>
+        </header>
+        <!-- menu feed -->
+        <section class="menu-feed">
+            <!-- menu item goes here -->
+        </section>
+
+        <section class="checkout hidden">
+            <h3>Your order</h3>
+            <div class="orders">
+                <!-- individual order goes here -->
+            </div>
+            <hr />
+            <div class="total-price">
+                <div>Total Price</div>
+                <div id="total-price">Price</div>
+            </div>
+            <button id="complete-order">Complete order</button>
+        </section>
+
+        <section class="thanks hidden">
+
+        </section>
+
+        <!-- Card Details hidden section -->
+        <section class="card-details-container hidden">
+            <div class="card-details">
+                <h3>Enter card details</h3>
+                <form>
+                    <input type="text" placeholder="Enter your name" id="field1" required>
+                    <input type="number" placeholder="Enter card number" id="field2" required>
+                    <input type="number" placeholder="Enter CVV" id="field3" required>
+                    <button type="submit" id="card-pay-button">Pay</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
